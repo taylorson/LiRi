@@ -6,7 +6,7 @@ var searchName = process.argv.splice(3).join("-");
 
 
 function tweets() {
-    var params = { screen_name: 'alexrosenkranz', count: 20 };
+    var params = { screen_name: 'tdpettersson', count: 20 };
     var requestType = "Tweets";
 
     key.twitterKeys.get('statuses/user_timeline', params, function(error, tweets, respond) {
