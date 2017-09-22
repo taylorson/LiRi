@@ -1,0 +1,27 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "Not Siri",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorson/LiRi.git"
+  },
+  "keywords": [
+    "Liri"
+  ],
+  "author": "Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorson/LiRi/issues"
+  },
+  "homepage": "https://github.com/taylorson/LiRi#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.82.0",
+    "spotify": "^0.3.0"
+  }
+}
